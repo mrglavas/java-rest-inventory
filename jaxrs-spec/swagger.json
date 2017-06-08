@@ -17,7 +17,7 @@
     "/inventory" : {
       "get" : {
         "tags" : [ "Inventory" ],
-        "summary" : "Returns inventory from the system",
+        "summary" : "Returns inventory from the system(s)",
         "description" : "longer description",
         "operationId" : "getInventory",
         "produces" : [ "application/json" ],
