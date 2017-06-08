@@ -15,7 +15,7 @@ import java.util.List;
 @Api(description = "the inventory API")
 
 
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2017-06-08T20:11:53.253Z")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2017-06-08T20:12:21.052Z")
 
 public class InventoryApi  {
 
@@ -46,7 +46,7 @@ public class InventoryApi  {
     
     
     @Produces({ "application/json" })
-    @ApiOperation(value = "Returns inventory from the system(s)", notes = "longer description", response = InventoryItem.class, responseContainer = "List", tags={ "Inventory" })
+    @ApiOperation(value = "Returns inventory from the system", notes = "longer description", response = InventoryItem.class, responseContainer = "List", tags={ "Inventory" })
     @ApiResponses(value = { 
         @ApiResponse(code = 200, message = "Returns the inventory for the query", response = InventoryItem.class, responseContainer = "List") })
     public Response getInventory(@QueryParam("skip") Integer skip) {
